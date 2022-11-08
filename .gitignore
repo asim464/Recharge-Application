@@ -1,11 +1,12 @@
 .DS_Store
-frontend/node_modules
-admin/node_modules
-front/node_modules
-admin/node_modules
 node_modules
-modules/__pycache__/
-__pycache__/
+/dist
+admin/node_modules
+anpr/Small
+anpr/Global
+anpr/logs.log
+logs.log
+config.ini
 
 
 # local env files
@@ -26,16 +27,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-/Small/
-/Global/
-
-
-logs.log
-*.log
-*.log
-logs.log
-config.ini
-config.ini
-*.ini
-config.ini
-config.ini
