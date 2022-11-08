@@ -1,0 +1,60 @@
+{
+  "name": "recharge-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "core-js": "^3.8.3",
+    "feather-icons": "^4.29.0",
+    "jquery": "^3.6.0",
+    "legacy": "^0.0.3",
+    "node-sass": "^7.0.1",
+    "portal-vue": "^2.1.7",
+    "querystring": "^0.2.1",
+    "sass-loader": "^13.0.2",
+    "v-select2-component": "^0.4.7",
+    "vue": "^3.2.13",
+    "vue-feather": "^2.0.0",
+    "vue-masked-input": "^0.5.2",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.0.16",
+    "vue-select2": "^0.2.6",
+    "vue-toast-notification": "^3.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

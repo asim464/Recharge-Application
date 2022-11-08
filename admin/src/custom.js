@@ -1,0 +1,1 @@
+import '../public/assets/js/notify/bootstrap-notify.min.js';
